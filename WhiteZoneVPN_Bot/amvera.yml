@@ -1,0 +1,13 @@
+meta:
+  environment: csharp
+  toolchain:
+    name: dotnet
+    version: "10.0"
+build:
+  image: null
+run:
+  image: null
+  buildFileName: "bin\Debug\net10.0\WhiteZoneVPN_Bot.exe"
+  persistenceMount: /data
+  containerPort: "80"
+  servicePort: "80"
